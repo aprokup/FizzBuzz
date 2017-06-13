@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F86C64731EE86C1C00EA50B3"
+               BuildableName = "Fizz Buzz!.app"
+               BlueprintName = "Fizz Buzz!"
+               ReferencedContainer = "container:Fizz Buzz!.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F86C64871EE86C1C00EA50B3"
+               BuildableName = "Fizz Buzz!Tests.xctest"
+               BlueprintName = "Fizz Buzz!Tests"
+               ReferencedContainer = "container:Fizz Buzz!.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F86C64921EE86C1C00EA50B3"
+               BuildableName = "Fizz Buzz!UITests.xctest"
+               BlueprintName = "Fizz Buzz!UITests"
+               ReferencedContainer = "container:Fizz Buzz!.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F86C64731EE86C1C00EA50B3"
+            BuildableName = "Fizz Buzz!.app"
+            BlueprintName = "Fizz Buzz!"
+            ReferencedContainer = "container:Fizz Buzz!.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F86C64731EE86C1C00EA50B3"
+            BuildableName = "Fizz Buzz!.app"
+            BlueprintName = "Fizz Buzz!"
+            ReferencedContainer = "container:Fizz Buzz!.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F86C64731EE86C1C00EA50B3"
+            BuildableName = "Fizz Buzz!.app"
+            BlueprintName = "Fizz Buzz!"
+            ReferencedContainer = "container:Fizz Buzz!.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
